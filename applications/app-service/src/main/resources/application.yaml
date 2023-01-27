@@ -1,0 +1,18 @@
+##Spring Configuration
+server:
+  port: 8080
+spring:
+  application:
+    name: broker-reactivecommons
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+  devtools:
+    add-properties: false
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  profiles:
+    include:
